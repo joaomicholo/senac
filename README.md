@@ -176,7 +176,7 @@ if (test_logico)
     
    ``` 
    
-### Exemplo if :+1:
+### Exemplo if :floppy_disk:
 
 ```dart
 string cursp = "programador android";
