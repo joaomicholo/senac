@@ -200,6 +200,36 @@ print ("Vacilão, aposto que voce faz ADM.");
 
 ```
 
+## Exemplo com numero
+
+```dart
+
+void main() {
+ 
+  
+  int numero = -20;
+  
+  
+    if(numero < 0 )
+      
+  {
+    
+
+  
+ print ("numero $numero é negativo é NEGATIVO"); 
+  
+  
+    }
+  
+  else
+    
+  {
+    
+  print ("numero $numero é POSITIVO");
+    
+  }
+  
+  ```
 
 
 
