@@ -88,18 +88,47 @@ Usando **DART** e **FLUTTER**
   
   print("ola $nome $sobrenome,confirmamos seu email: $email \nnotamos que voce tem $idade anos de vida");
   }
-
+```
    
+  ## Aula 2
+  
+  ``` dart
    
+   void main() {
    
+    String nome,sobrenome,email,senha,cpf,endereco,sexo,celular,curso,Nome_Social;
+  
+  int anonasc,idade,qtd_moradores;
+  
+  double renda_familiar,renda_pessoa;
+  
+  Nome_Social = "Scarlet";
+  nome = "joao";
+  sobrenome = "gabriel";
+  email = "joaomicholo11@hotmail.com";
+  senha = "mix1510";
+  cpf = "324.134.123-14";
+  endereco = "rencanto do jaguari, rua afonso finazzi 385";
+  sexo = "Masculino";
+  celular = "(19)99336-8280";
+  curso = "programador de dispositiveis moveis";
+  anonasc = 2003;
+  idade = 2019-anonasc;
+  qtd_moradores = 4;
+  renda_familiar = 3045;
+  renda_pessoa = renda_familiar/qtd_moradores;
+  
+  print("ola meu nome é $nome $sobrenome, meu email é $email e a senha é $senha,meu cpf é $cpf, endereco $endereco, sexo $sexo e celular $celular.\nO curso que eu ganhei a bolsa foi $curso\nNasci no ano de $anonasc tenho $idade anos de idade,em casa moramos em $qtd_moradores pessoas e a nossa renda familiar é $renda_familiar a renda por pessoa em casa é ${renda_pessoa.toStringAsFixed(2)}  ");
+  
+  if ( Nome_Social!= "")
+  
+  {
+  print("Nome Social : $Nome_Social");
+  
+ }
    
-   
-   
-   
-   
-   
-   
-   
+}
+ ```  
    
    
    
