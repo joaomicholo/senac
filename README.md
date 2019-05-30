@@ -179,7 +179,7 @@ if (test_logico)
 ### Exemplo if :floppy_disk:
 
 ```dart
-string cursp = "programador android";
+string curso = "programador android";
 
 if (curso == "programador android")
 
