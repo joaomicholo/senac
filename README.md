@@ -92,6 +92,12 @@ Usando **DART** e **FLUTTER**
    
   ## Aula 2
   
+  **${renda_pessoa.toStringAsFixed(2)}  ");** 
+  
+  O método .toStringAsFixed() é usado para formatar as casas (2) decimais de variável (renda pessoal) double.
+  
+  
+  
   ``` dart
    
    void main() {
