@@ -230,8 +230,48 @@ void main() {
   }
   
   ```
+  
+  ## exemplo para treinar
+  
+  ```dart
+  
+  void main() {
+ 
+  
+ double nota1,nota2,media;
+  
+  
+  
+  nota1 = 6.5;
+  
+  nota2 = 9.0;
+  
+  media = nota1 + nota2  / 2 ;
+  
+  
+  
+  
+  
+ if (media >= 5)
+  
+ {
+    
+    
+  print ("Aprovado com media $media");
+   
+ }
+  
+  else
+    
+  {
+    
+    print ("reprovado com media $media");
+    
+  
+  }
+  
 
-
+```
 
 
 
