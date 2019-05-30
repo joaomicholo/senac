@@ -135,6 +135,87 @@ Usando **DART** e **FLUTTER**
    
 }
  ```  
+ 
+ ##  Condição Lógica If
+ 
+ 
+ O IF serve para determinar se um bloco de instruções **server** ou **não** ser executado, pode-se dizer que sempre que for necessario
+ **testar** algum valor usaremos o *if*
+ 
+ ### Operadores Lógicos 
+ 
+ - != *Diferente*
+ - == *Igualdade*
+ - \>= *Maior ou igual*
+ - <= *Menor ou igual*
+ - \> *Maior*
+ - < *Menor*
+ 
+ ### Sintaxe
+ 
+ 
+ 
+ 
+ 
+``` dart
+
+if (test_logico)
+
+{
+
+  // faz isso se o teste for verdadeiro
+  
+  }
+  
+  
+  else
+  
+  {
+  
+    //faz isso se o teste for falso
+    
+   ``` 
+   
+### Exemplo if
+
+```dart
+string cursp = "programador android";
+
+if (curso == "programador android")
+
+
+{ 
+
+print ("Parabéns, voce faz ótimas escolhas.");
+
+}
+
+else
+
+{
+
+print ("Vacilão, aposto que voce faz ADM.");
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
    
    
