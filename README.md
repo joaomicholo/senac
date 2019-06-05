@@ -273,6 +273,89 @@ void main() {
 
 ```
 
+##Aula 3 - Lógica com Dart
+
+
+Foi importada a *biblioteca* **dart:math** para podermos usar funções matematícas como a potencia e a raiz quadrada,
+no exemplo abaixo foi usada a função **math.sqrt()** para calcular a raiz de delta.
+- Após a importação foi dado um "apelido" para chamar a função através da sintaxe **as** (dart:math as **math**)
+- Foram usados 2 if, o 1 para dar acesso através da palavra mágica SHAZAM e o 2 para fazer a equação.
+- Cada if tem seu propio Else , daí a importancia de *identar* , organizar o código com **TABS**
+
+
+### Exemplos usando math
+
+```dart
+print(math.sqrt(9)); // exibe a raiz de 9
+print(math.pi); // exibe valor de pi
+print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7
+
+```
+
+### Exemplo Usando if dentro de if (login e equação de 2 grau)
+
+```dart
+
+import 'dart:math'as math;
+void main() {
+ 
+  String palavra_magica;
+  
+  palavra_magica = "Akashi";
+  
+  if (palavra_magica == "Akashi")
+    
+  {
+   print("Exercício 1 - Bhaskara'");
+    
+    double delta,a ,b , c;
+    
+    a = 1;
+    b = -10;
+    c = 25;
+      
+    delta = (b * b) -4 * a * c;
+    
+    print("O delta = $delta");
+    
+    if (delta < 0)
+    {
+      
+      print("Nenhuma raiz real pq o delta é menor que zero.");
+      
+      
+    }
+    
+      else
+   
+    {
+     
+     double raiz_q, x1, x2;   
+        
+  //Raiz Quadrada
+        
+        raiz_q = math.sqrt(delta);
+        
+       print("A RAIZ DE DELTA É = $raiz_q");
+        x1 = (-b + raiz_q) / (2 * a);
+        x2 = (-b - raiz_q) / (2 * a);     
+        print("X1 = $x1");
+        print("X2 = $x2"); 
+    }
+  }
+  
+  else
+    
+  {
+    print("Acesso negado,voce não é Digno");
+  }
+ 
+  }
+  
+  ```
+  
+  
+
 
 
 
