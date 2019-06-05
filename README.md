@@ -354,7 +354,7 @@ void main() {
   
   ```
   
-  ##If aninhado ou if encadeado
+  ### If aninhado ou if encadeado
   
   Aninhado - Quando temos mais do que 2 testes possíveis,é necessario alterar a estrutura e acrescentar um **else If**
   após o primeiro if
@@ -362,9 +362,6 @@ void main() {
   
   ```dart
   
-  
-  
-    
   void main() {
  
  if (teste)
@@ -379,14 +376,16 @@ void main() {
  //faz isso
  }
  
- 
  else 
  
  {
  //nenhum dos anteriores
  }
+
+ ```
+ ### Exemplo Else If
  
- 
+ ```dart
  
   String cidade_natal;
   
