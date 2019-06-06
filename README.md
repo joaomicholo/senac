@@ -273,7 +273,7 @@ void main() {
 
 ```
 
-##Aula 3 - Lógica com Dart
+## Aula 3 - Lógica com Dart
 
 
 Foi importada a *biblioteca* **dart:math** para podermos usar funções matematícas como a potencia e a raiz quadrada,
@@ -435,21 +435,57 @@ else if (cidade_natal.toLowerCase() == "são Paulo")
   ```
   
   
+  ## AULA 4 -  OPERADORES LÓGICOS
   
   
+  ### E (AND) && OU (OR) ||
   
-  ### E (AND) $$ OU (OR) ||
+  ### E (AND) &&
   
-  ### E (AND) $$
-  
-  "Somente sera VERDADE se todas as expressões forem VERDADES".
+  *"Somente sera VERDADE se todas as expressões forem VERDADES".*
   
   ### OU (or) ||
   
   
-  "Somente sera falso se todas as expressões forem FALSAS".
+  * "Somente sera falso se todas as expressões forem FALSAS".*
+  
+  ### EXEMPLO DE VARIAVEIS
+  
+  ```dart
+  
+  void main() {
+ 
+  bool var_a,var_b;
   
   
+  var_a = true;
+  
+  var_b = false;
+  
+  print((!var_a && var_a) || (var_b || !var_b) );
+  
+  
+  
+  
+  int numero = 10;
+  
+  if(var_a == var_b)
+    
+  {
+    numero = 666; 
+  }
+  
+  else
+  {
+    numero = numero + 1; 
+    
+  }
+  
+print (numero);
+
+}
+
+```
   
   
   
