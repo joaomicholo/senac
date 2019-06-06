@@ -437,6 +437,23 @@ else if (cidade_natal.toLowerCase() == "são Paulo")
   
   
   
+  
+  ### E (AND) $$ OU (OR) ||
+  
+  ### E (AND) $$
+  
+  "Somente sera VERDADE se todas as expressões forem VERDADES".
+  
+  ### OU (or) ||
+  
+  
+  "Somente sera falso se todas as expressões forem FALSAS".
+  
+  
+  
+  
+  
+  
 
 
 
