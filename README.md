@@ -545,13 +545,23 @@ void calcular (double novoNumero1,double novoNumero2, String operacao) {
   print("\nO resultado é : $resposta");
 }
 ```
+ ## Aula Flutter
+ 
+ **Primeiro Contato:**
+ 
+ Entrar em flutter.dev (ou fluter.oi) e procurar o local para começar a utilizar o flutter (Get Started)
+ Seguir os passos de instalação, que constituem basicamente de:
+ 
+  - Baixar o SDK do flutter e coloca-lo na pasta "c:/src/flutter"
+  - Baixar e instalar o Android Studio
+  - Configurar o plugin do flutter no android studio
+  - Rodar o comando "flutter doctor" no Prompt de Comando para certificar que está tudo ok.
   
+**Criação do primeiro App**
   
-  
-  
-  
+   
 
-
+  
 
 
 
