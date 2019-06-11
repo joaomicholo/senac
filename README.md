@@ -559,8 +559,15 @@ void calcular (double novoNumero1,double novoNumero2, String operacao) {
   
 **Criação do primeiro App**
   
-   
-
+  Regra nº1: **Nunca feche a Máquina virtual**
+  
+  1. Abrir o android studio 
+  2. Abrir a Máquina Virtual (Emulador do android)
+  3. Apertar no botão "Star new Flutter Project" (iniciar novo projeto do flutter)
+  4. Escolher Aplicativo Flutter
+  5. Colocar o nome do projeto, descrição, e o caminho do SDK.
+  6. Nome da Empresa (Não mudou nada)
+  
   
 
 
