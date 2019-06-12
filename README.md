@@ -569,6 +569,8 @@ void calcular (double novoNumero1,double novoNumero2, String operacao) {
   6. Nome da Empresa (Não mudou nada)
   
   
+  
+  
 
 
 
